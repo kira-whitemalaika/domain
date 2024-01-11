@@ -1,0 +1,112 @@
+
+    .ux-card {
+      margin-top: 40px;
+      min-width: 300px;
+    }
+
+    .uxf {
+      background-color: #cccccc;
+      color: #333333;
+    }
+
+    .uxf-tagline {
+      background-color: #000000;
+      color: #FFFFFF;
+    }
+
+    .uxf-logo {
+      background-color: #eff0f1;
+    }
+
+    .btn-block {
+      margin-bottom: 5px;
+    }
+
+    .factor_desc {
+        display: table-row;
+        margin-bottom: 10px;
+    }
+    
+    .factor_img { 
+        margin: 10px;
+        margin-top: 0px;
+        float: right;
+    }
+
+    #multifactor_verify_form {
+      margin-top: 20px;
+    }
+
+    .green-checkbox {
+        color: #679b08;
+        font-size: 30px;
+        vertical-align: baseline;
+    }
+    
+    .gray-check-box {
+      color: #999999;
+      margin-bottom: 3px;
+      margin-left: 5px;
+    }
+
+    .green-checked-box {
+      color: #679b08;
+      margin-bottom: 3px;
+      margin-left: 5px;
+    }
+
+    .new-recovery-code-container {
+        padding: 10px;
+        background-color:#E0E0E0;
+        text-align:center;
+        margin: 5px 0;
+        font-size:24px;
+        font-weight: bold;
+    }
+
+    .caret {
+      margin-left: 8px;
+    }
+
+    .recovery-checkbox-container{
+        margin: 50px 0 20px 0;
+    }
+
+    .secretkey {
+      padding: 10px;
+      background-color:#E0E0E0;
+      text-align:center;
+      margin: 5px 0;
+      font-weight: bold;
+      width: 260px;
+    }
+
+    .qr-code-container
+    {
+      margin-top: 15px;
+      text-align: center;
+    }
+    .qr-code
+    {
+      margin-left: -28px;
+      height: 120px;
+      width: 120px;
+    }
+
+    .no-anti-alias
+    {
+      image-rendering: optimizeSpeed;            
+      image-rendering: -moz-crisp-edges;         
+      image-rendering: -o-crisp-edges;           
+      image-rendering: -webkit-optimize-contrast; 
+      image-rendering: optimize-contrast;       
+      -ms-interpolation-mode: nearest-neighbor;
+    }
+    
+    /* UXCore has a weird dark-grey on black header for mobile.
+     Let's do a temp fix until we get the new header from them */
+    @media screen and (max-width: 767px) {
+      .langChoice {
+        color: #e7e7e7 !important;
+      }
+    }
